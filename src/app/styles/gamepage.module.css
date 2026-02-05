@@ -1,0 +1,9 @@
+.header{
+    width:100vw;
+    height:fit-content;
+    padding:10px;
+    text-align:center;
+    font-size:42px;
+    color:white;
+    background-color:rgb(64, 28, 244);
+}
