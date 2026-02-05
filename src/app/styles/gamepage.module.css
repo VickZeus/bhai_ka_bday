@@ -7,3 +7,44 @@
     color:white;
     background-color:rgb(64, 28, 244);
 }
+
+.scoreboard{
+    display:flex;
+    flex-direction:row;
+    width:100vw;
+    height:fit-content;
+    padding:5px;
+    background-color:rgb(118, 29, 253);
+}
+
+.colflex{
+    display:flex;
+    flex-direction:column;
+    margin-inline:auto;
+}
+
+.rowflex{
+    display:flex;
+    flex-direction:row;
+    gap:5px;
+}
+
+.bigtext{
+    font-size:32px;
+    color:white;
+    margin:10px;
+}
+
+.threeColumns {
+  position: relative;
+  height: 75vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.falling {
+  position: absolute;
+  width: 80px;
+  cursor: pointer;
+  user-select: none;
+}
